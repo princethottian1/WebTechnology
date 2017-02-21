@@ -1,0 +1,49 @@
+
+
+
+	ul.b {
+    list-style-type: square;
+}
+
+	header{
+		
+		padding-top: 40px;padding-right: 30px;padding-bottom: 30px;padding-left: 50px;
+		font-family: Copperplate Gothic Light; color: #fff; font-size:45px;text-align:left;
+	}
+	footer
+	{
+		background-color:grey;padding: 10%;
+	}
+	body {
+	 background-color:grey;font-family: Georgia; color: #444; height:auto;}
+	#inner {background-image: url("img/bckimg.png");        
+    background-size: 100%;}
+	
+	
+	img {
+   
+    height: auto;
+     }
+
+	h1{font-family: sans-serif;font-size:30px;}
+	h2{font-size: 25px;}
+	h3{font-size: 18px; }
+	h4{font-size: 18px;text-align:left; }
+
+
+	
+
+	a#pdf { display: block;  background: #666; color: white;margin-bottom: 10px; text-decoration: none;  }
+	a#pdf:hover { background: #222; }
+
+	
+
+	
+
+	
+
+	/* --// override to force 1/8th width grids -- */
+	.yui-gf .yui-u{width:80.2%;}
+	.yui-gf div.first{width:12.3%;}
+
+

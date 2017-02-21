@@ -1,0 +1,143 @@
+<!DOCTYPE html >
+
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="devassignment" content="Web Technology">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Prince Paul">
+ 
+  
+
+<meta name="HandheldFriendly" content="true">
+<style>
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+
+	<title>Prince Paul</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
+
+
+</head>
+<body>
+
+<header>
+<img src="img/dp.png" alt="Display Pic"  style="padding-right: 5%;">
+ Prince Paul
+ <br>
+ <h3>prince.paul.022@gmail.com</h3>
+</header>
+
+
+
+	<div id="inner" >
+	<button class="button button1" onclick="myFunction4()">Home</button>
+	<button class="button button1" onclick="myFunction()">About</button>
+	<button class="button button1" onclick="myFunction1()">Education</button>
+	<button class="button button1" onclick="myFunction2()">Professional Expereance</button>
+	
+
+	<p id="demo"></p>
+	
+
+
+		<div id="hd">
+			<div class="yui-gc">
+				<div class="yui-u first">
+					
+					
+				</div>
+
+				<div class="yui-u">
+					<div class="contact-info">
+						
+						
+							
+						<h3><a id="pdf" href="resume.pdf" download> Download PDF </a></h3>
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="bd">
+			<div id="yui-main">
+				<div class="yui-b">
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							
+						</div>
+						<div class="yui-u">
+							<p class="enlarge">
+							
+							<script>
+							function myFunction() {
+								document.getElementById("demo").innerHTML = "<h2>About</h2><br></br> <h3> Seeking a challenging career that utilizes my skills in my area of competence and enriches my knowledge, and gives me a chance to be part of a team that contributes towards the growth of the organization, thereby yielding the twin benefits of job satisfaction and convenient professional growth.</h3>";
+							}
+							</script>
+						
+							<script>
+							function myFunction1() {
+								document.getElementById("demo").innerHTML = "<h2>Education</h2><br></br> <h3><b>Bachelor of Engineering, Major:</b> Computer Engineering , June 2015 Xavier Institute Of Engineering , Mahim, Mumbai, India.<br></br><b>MASTER OF COMPUTER SCIENCE IN INFORMATION SYSTEMS</b> - ANTICIPATED MAY 2018 MARIST COLLEGE, POUGHKEEPSIE, NY</h3>";
+							}
+							</script>
+							
+							<script>
+							function myFunction2() {
+								document.getElementById("demo").innerHTML = "<h2>Professional Experiance</h2><br></br> <h3><b>Technical Lead</b></h3> <b>ADVANCED TECHNOSYSTEMS</b>, Mumbai,India<br></br> <br></br><h4 padding: 10px 80px;>Completed end-to-end projects in Castrol India , Maruti Suzuki Udyog Ltd.<br></br>Extensive experience on Audio Visual equipments ,3D Movie theatre Integration.<br></br>Experience in training new staff and providing the knowledge transfer as required for the project</h4>";
+							}
+							</script>
+							<script>
+							function myFunction4() {
+								document.getElementById("demo").innerHTML = "<H1>MY PROFILE</H1>";
+							}
+							</script>
+								
+							</p>
+						</div>
+					</div>
+
+					</div>
+					</div>
+					</div>
+					</div>
+					
+					<footer>
+						
+					</footer>
+						
+
+					
+
+</body>
+</html>
+
